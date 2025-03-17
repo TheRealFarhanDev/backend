@@ -1,15 +1,19 @@
 {
   "name": "mainproject",
   "version": "1.0.0",
-  "description": "a backend by youtube guide",
+  "description": "a backend by youtube guide - Hitesh",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Mohammed Farhan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
